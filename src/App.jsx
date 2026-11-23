@@ -306,7 +306,7 @@ export default function App() {
             <div className="contact-row">
               <span className="contact-label">Cv:</span>
               <a
-                href="https://drive.google.com/file/d/1m6bWzozFw2OYeoQUBRmTpJe8PZ9kzkWH/view?usp=sharing"
+                href="https://drive.google.com/file/d/18587-ZmPfZ29jQyoN-w2VEkQf_YmwEht/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
