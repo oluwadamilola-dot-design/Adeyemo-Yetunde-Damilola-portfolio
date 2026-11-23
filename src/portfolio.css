@@ -2,6 +2,7 @@
   --bg-navy: #092130;
   --bg-white: #ffffff;
   --bg-about: #f4f6f8;
+  --bg-card: #f8fafc;
   --border-light: #e2e8f0;
   --border-dark: rgba(255, 255, 255, 0.14);
   --text-light: #f8fafc;
@@ -238,8 +239,8 @@ button:focus-visible {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 44px;
-  row-gap: 56px;
+  column-gap: 32px;
+  row-gap: 36px;
 }
 
 .project-card {
@@ -248,6 +249,10 @@ button:focus-visible {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  background-color: var(--bg-navy);
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .project-media {
@@ -271,25 +276,25 @@ button:focus-visible {
 .project-category {
   font-size: 13px;
   font-weight: 500;
-  color: var(--accent-blue);
+  color: var(--accent-blue-hover);
 }
 
 .project-title {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.3;
-  color: #cbe9fa;
+  color: var(--text-light);
 }
 
 .project-summary {
-  color: #cbe9fa;
+  color: var(--text-light-muted);
   font-size: 14px;
   line-height: 1.6;
 }
 
 .project-highlights {
   padding-left: 18px;
-  color: #cbe9fa;
+  color: var(--text-light-muted);
   font-size: 13.5px;
   line-height: 1.55;
   display: flex;
@@ -322,14 +327,14 @@ button:focus-visible {
 }
 
 .text-link-secondary {
-  color: #cbe9fa;
+  color: var(--text-light-muted);
   text-decoration: none;
   font-size: 13.5px;
   font-weight: 500;
 }
 
 .text-link-secondary:hover {
-  color: var(--accent-blue);
+  color: var(--accent-blue-hover);
   text-decoration: underline;
 }
 
@@ -436,14 +441,14 @@ button:focus-visible {
 
 .contact-value,
 .contact-row a {
-  color: var(--accent-blue);
+  color: var(--accent-cyan);
   text-decoration: underline;
   text-underline-offset: 3px;
   word-break: break-word;
 }
 
 .contact-row a:hover {
-  color: var(--accent-cyan);
+  color: #ffffff;
 }
 
 /* Responsive Layout */
